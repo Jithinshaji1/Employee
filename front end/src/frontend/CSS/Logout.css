@@ -1,0 +1,68 @@
+.logout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color:green ;
+    color: white;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:first-of-type {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  button:first-of-type:hover {
+    background-color: #e04343;
+  }
+  
+  button:last-of-type {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  button:last-of-type:hover {
+    background-color: #ddd;
+  }
+  
+  @media (max-width: 768px) {
+    .logout-container {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  

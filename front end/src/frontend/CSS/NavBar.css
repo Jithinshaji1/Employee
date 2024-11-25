@@ -1,0 +1,39 @@
+.navbar {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    width: 150px;
+    font-style: italic;
+    font-weight: bold;
+    color: darkorange;
+  }
+  
+  .list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+  }
+  
+  .list-item {
+    cursor: pointer;
+  }
+  
+ 
+ 
+
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 10px;
+  }
+  
+ 
+  
